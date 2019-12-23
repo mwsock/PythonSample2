@@ -7,7 +7,7 @@ conn = sqlite3.connect('test.db')
 
 c = conn.cursor()
 
-c.execute("DROP TABLE testTable")
+#c.execute("DROP TABLE testTable")
 
 ########## CREATE TABLE ########################
 c.execute("""CREATE TABLE testTable (
